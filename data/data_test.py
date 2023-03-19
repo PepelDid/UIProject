@@ -1,0 +1,22 @@
+multi_view_data = [
+    {'params': {'sort': 'name', 'sort_order': 'asc', 'display': 'table', 'showBy': 20},
+     'expected': ['table', 20, 'NAME', 'desc']},
+    {'params': {'sort': 'price', 'sort_order': 'desc', 'display': 'block', 'showBy': 50},
+     'expected': ['block', 50, 'PRICE', 'asc']},
+    {'params': {'sort': 'price', 'sort_order': 'asc', 'display': 'list', 'showBy': 20},
+     'expected': ['list', 20, 'PRICE', 'desc']},
+    {'params': {'sort': 'shows', 'sort_order': 'desc', 'display': 'table', 'showBy': 100},
+     'expected': ['table', 100, 'SHOWS', 'asc']},
+    {'params': {'sort': 'shows', 'sort_order': 'asc', 'display': 'list', 'showBy': 50},
+     'expected': ['list', 50, 'SHOWS', 'desc']},
+    {'params': {'sort': 'name', 'sort_order': 'desc', 'display': 'table', 'showBy': 50},
+     'expected': ['table', 50, 'NAME', 'asc']},
+    {'params': {'sort': 'name', 'sort_order': 'asc', 'display': 'block', 'showBy': 100},
+     'expected': ['block', 100, 'NAME', 'desc']},
+    {'params': {'sort': 'name', 'sort_order': 'desc', 'display': 'list', 'showBy': 100},
+     'expected': ['list', 100, 'NAME', 'asc']},
+    {'params': {'sort': 'price', 'sort_order': 'desc', 'display': 'table', 'showBy': 100},
+     'expected': ['table', 100, 'PRICE', 'asc']},
+    {'params': {'sort': 'shows', 'sort_order': 'desc', 'display': 'block', 'showBy': 20},
+     'expected': ['block', 20, 'SHOWS', 'asc']}
+]
