@@ -3,8 +3,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-
 from base.base import Base
+
+main_page_url = "https://lavka-coffee-tea.ru/"
 
 
 class Main_page(Base):
@@ -42,6 +43,5 @@ class Main_page(Base):
     def find_section_name(self, x):
         el = self.get_section_name(x)
         return el.text
-
 
 # Methods

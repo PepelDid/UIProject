@@ -5,6 +5,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
+compare_page = "https://lavka-coffee-tea.ru/catalog/compare.php"
+
 
 class Compare_page(Base):
     def __init__(self, driver):

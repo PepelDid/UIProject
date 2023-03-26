@@ -9,6 +9,8 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from base.base import Base
 
+catalog_page_url = "https://lavka-coffee-tea.ru/catalog/"
+
 
 class Catalog_Section_page(Base):
     def __init__(self, driver):
